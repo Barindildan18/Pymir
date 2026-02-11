@@ -31,6 +31,7 @@ This is a part. which is responsible for the most important actions - initializi
 
 ## commands
 The part where you can actually write some commands, like left(), right(), up(), down(), and so on (theres no more commands for now :3). You can also combine them with python syntax, like for loops or logical statents.
+
 All of this part of code is just a big move() function, that you can implement in main.py
 
 
