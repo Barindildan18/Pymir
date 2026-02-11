@@ -37,6 +37,8 @@ The field of the Pymir is a 8x8 squares surface, the default window size is 640x
 Step variable is basically a side of these squares (80px).
 
 ```
+#Pymir/environment.py
+
 placement = [
 	[[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H']],
 	[[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H']],
