@@ -29,16 +29,18 @@ $ ./run.sh
 ## main
 This is a part. which is responsible for the most important actions - initializing pygame, drawing the background, functions that are already written in other parts.
 
-## environment
+## commands
+The part where you can actually write some commands, like left(), right(), up(), down(), and so on (theres no more commands for now :3). You can also combine them with python syntax, like for loops or logical statents.
+All of this part of code is just a big move() function, that you can implement in main.py
 
+
+## properties
 This is where fun begins:
 
 The field of the Pymir is a 8x8 squares surface, the default window size is 640x640px.
 Step variable is basically a side of these squares (80px).
 
 ```
-#Pymir/environment.py
-
 placement = [
 	[[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H']],
 	[[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H']],
@@ -56,9 +58,9 @@ the each row consists of an 8 other arrays TOO (8 "cells" in one row).
 
 The cell consisnts of a bool value (0 - theres no wall in this cell, 1 - theres a wall in this cell), and string, that can be "H" or "V" (horizontal or vertical)
 
-After that, a big draw_walls() function definition - It just reads all of the placement table and draws walls, depending on the values in it.
-
 With the help of that you can actually build any figure or a line on the pygame window.
+
+After allat there is some basic configurations like colors, start position of a robot, sizes, etc.
 
 ## robot
 

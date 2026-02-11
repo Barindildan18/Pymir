@@ -1,17 +1,6 @@
 import pygame
 
-screen = pygame.display.set_mode((640, 640))
-
 start = [80, 80]
-
-robot_width = 80
-robot_height = 80
-robot_color = (0, 255, 255)
-
-wall_width = 80
-wall_height = 3
-wall_color = (255, 255, 255)
-
 placement = [
 	[[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H']],
 	[[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H']],
@@ -22,6 +11,23 @@ placement = [
 	[[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H']],
 	[[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H']]
 ]
+
+screen = pygame.display.set_mode((640, 640))
+
+step = 80
+time_interval = 0.3
+
+robot_size = 80
+robot_color = (0, 255, 0)
+
+wall_width = 80
+wall_height = 3
+wall_color = (255, 255, 255)
+
+paint_color = (69, 69, 69)
+
+background_color = (38, 38, 38)
+
 
 
 
