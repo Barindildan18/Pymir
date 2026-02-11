@@ -36,6 +36,19 @@ This is where fun begins:
 The field of the Pymir is a 8x8 squares surface, the default window size is 640x640px.
 Step variable is basically a side of these squares (80px).
 
+```
+placement = [
+	[[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H']],
+	[[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H']],
+	[[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H']],
+	[[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H']],
+	[[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H']],
+	[[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H']],
+	[[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H']],
+	[[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H'],[0, 'H']]
+]
+```
+
 There it is, the placement array (I call It table because It just look like that) - it consisnts of an 8 other arrays (rows in the 8x8 surface),
 the each row consists of an 8 other arrays TOO (8 "cells" in one row).
 
