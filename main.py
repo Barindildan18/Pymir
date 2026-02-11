@@ -1,6 +1,7 @@
 from imports import *
 from environment import *
 from robot import *
+
 pygame.init()
 pygame.display.set_caption("РОБОТ")
 
