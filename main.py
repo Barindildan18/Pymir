@@ -14,6 +14,4 @@ while is_running:
 	pygame.draw.rect(screen, (38, 38, 38), (0, 0, 640, 640))
 	draw_walls()
 	draw_robot()
-	right(3)
-	down(2)
 	pygame.display.update()
